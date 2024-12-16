@@ -1,0 +1,129 @@
+body, html {
+            font-family: Arial, sans-serif;
+            background-color: #000000de;
+            color: #333;
+            line-height: 1.6;
+            min-height: 100%;
+            opacity: 1;
+            transition: opacity 0.5s;
+        }
+
+
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 40px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 17px 34px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: rgba(139, 0, 0, 0.8);
+            color: white;
+        }
+
+        .navbar .logo {
+            font-size: 25px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .navbar ul {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            margin-right: 60px;
+            padding: 0;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            background-color: white;
+            color: red;
+        }
+
+        .main-text {
+            text-align: center;
+            margin: auto;
+            padding: 120px 20px;
+            color: #f8f5f0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .text-and-carousel {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 10px auto;
+            max-width: 1200px;
+        }
+
+        .dumaguete-container {
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            color: #fefefe;
+            text-align: justify;
+            width: 45%;
+        }
+
+        .dumaguete-header {
+            font-size: 3rem;
+            margin-bottom: 5px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .blog-section {
+            padding: 40px 20px;
+            background: #222;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        .highlight {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .highlight img {
+            width: 200px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .highlight div {
+            max-width: 80%;
+        }
+
+        .highlight h2 {
+            margin-top: 0;
+        }
+        .logo a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .logo a:hover {
+            background-color: white;
+            color: red;
+        }
